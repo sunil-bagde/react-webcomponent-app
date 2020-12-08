@@ -1,0 +1,20 @@
+.app-drawer {
+  display: flex;
+}
+.panel-item {
+  transition: opacity 400ms ease-in-out;
+  opacity: 0.3;
+  flex: 1;
+  text-align: center;
+  border-radius: 50%;
+}
+.panel-item:hover {
+  opacity: 1.0;
+  background: rgb(255, 0, 255);
+  color: white;
+}
+.app-panel > .panel-item {
+  padding: 5px;
+  list-style: none;
+  margin: 0 7px;
+}
